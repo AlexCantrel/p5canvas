@@ -8,10 +8,10 @@ function setup() {
 	createCanvas(600,400);
 }	
 function draw() {
-	background(0);
-	strokeWeight(4);
+    background('#2F4F4F');
+	strokeWeight(2);
 	stroke(255);
-	fill(255, 0, 0);
+	fill(160, 150, 180);
 	x = x + speedx;
 	y = y + speedy;
 	if (x > (width-r/2) || x- r/2< 0) {
